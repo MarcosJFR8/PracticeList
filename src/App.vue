@@ -1,12 +1,14 @@
 <script setup lang="ts">
   import AppHeader from './components/AppHeader.vue';
   import TodoList from './components/TodoList.vue';
+  import ThemeSwitch from './components/ThemeSwitch.vue';
 </script>
 
 <template>
   <div>
     <AppHeader />
     <TodoList />
+    <ThemeSwitch />
   </div>
 </template>
 
