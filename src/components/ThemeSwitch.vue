@@ -58,6 +58,6 @@ button {
     cursor: pointer;
     transition: background-color 0.3s ease, color 0.3s ease;
     position: relative;
-    bottom: 350px; left: 690px;
+    bottom: 280px; left: 730px;
 }
 </style>

@@ -13,4 +13,16 @@
 </template>
 
 <style scoped>
+    header{
+        position: fixed;  
+        top: 0;          
+        left: 0;         
+        width: 97%;     
+        margin: 1%;       
+        padding: 0;         
+    }
+    h1{
+        margin: 0;
+        padding: 0;
+    }
 </style>

@@ -43,5 +43,10 @@
     ul {
         list-style: none;
         padding: 0;
+        position: fixed;
+        top: 100px;
+        left: 0;
+        width: 100%;  
+        margin: 2%; 
     }
 </style>
