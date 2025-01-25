@@ -2,6 +2,7 @@
   import AppHeader from './components/AppHeader.vue';
   import TodoList from './components/TodoList.vue';
   import ThemeSwitch from './components/ThemeSwitch.vue';
+  import ListDescription from './components/ListDescription.vue';
 </script>
 
 <template>
@@ -9,6 +10,7 @@
     <AppHeader />
     <TodoList />
     <ThemeSwitch />
+    <ListDescription />
   </div>
 </template>
 
