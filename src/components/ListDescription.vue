@@ -19,7 +19,7 @@
 
 <template>
   <div>
-    <input type="text" v-model="newTask" placeholder="Que vas hacer">
+    <input class="taskWriter" type="text" v-model="newTask" placeholder="Que vas hacer">
     <button class="itemButton" @click="addTask">AHORA CUMPLELO</button>
     <ul>
       <li v-for="(task, index) in tasks" :key="index">
@@ -44,11 +44,25 @@
   cursor: pointer;
   transition: background-color 0.3s ease, color 0.3s ease;
   position: relative;
+  top: 200px;
+  left: 6cm;
   border: 2px solid rgb(95 97 110);
   border-radius: 0.5cm;
   align-items: center;
   justify-content: center;
 } 
+
+.taskWriter {
+  position: relative;
+  top: 200px;
+  left: 6cm;
+  width: 30%;
+  height: 30px;
+  border: 2px solid rgb(95 97 110);
+  border-radius: 0.5cm;
+  padding: 5px;
+  margin: 20px 20px 20px;
+}
 
 ul{
   list-style: none;
