@@ -21,7 +21,7 @@
 
 <template>
     <div>
-        <button @click="toggleTheme" aria-label="Toggle theme" >Cambiar tema</button>
+        <button class="themeButton" @click="toggleTheme" aria-label="Toggle theme" >Cambiar tema</button>
     </div>
 </template>
 
@@ -50,14 +50,15 @@ h1 {
     transition: background-color 0.3s ease, color 0.3s ease;;
 }
 
-button {
+.themeButton {
     background-color: var(--card-bg-color);
     color: var(--text-color);
     border: 1px solid var(--text-color);
+    border-radius: 10px;
     margin: 10px 80px 20px;
     cursor: pointer;
     transition: background-color 0.3s ease, color 0.3s ease;
     position: relative;
-    bottom: 280px; left: 730px;
+    bottom: 235px; left: 870px;
 }
 </style>
